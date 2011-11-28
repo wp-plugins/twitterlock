@@ -43,4 +43,4 @@ Fo example if you want to lock a certain paragraph "The quick brown fox jumped o
 == Changelog ==
 
 = 1.0 =
-* Initial release of the plugin, please wait for the stable release.
+* Stable release of the plugin 1.0. 

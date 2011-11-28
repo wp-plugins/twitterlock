@@ -1,7 +1,7 @@
 <?php 
 /*
 Plugin Name: TwitterLock - Social Lock for your content
-Plugin URI: http://kgfog.com
+Plugin URI: http://kgfog.com/twitterlock
 Description: TweetLocker enables you to hide a part of your post or page 's content. The part will only be revealed when a person Follows or Tweets.  
 Version: 1.0.0
 Author: Mohit Jawanjal
@@ -55,7 +55,8 @@ function add_locker_shortcode($attrs, $content=null){
     }else if ($settings['unlock_type']=='follow'){
         $displaycontent .= '<div align="center"><a href="https://twitter.com/'. $settings['follow_userid'] . '" class="twitter-follow-button">Follow '. $settings['follow_userid'] .'@twitterapi</a></div>';
     }
-    $displaycontent .= '</div>';
+    $displaycontent .= "<br/><p style='font-size: 9pt;' align='center'>Powered By: <a href='http://kgfog.com/twitterlock/' target='_blank'>TwitterLock</a>";
+    $displaycontent .= '</div></br>';
     $displaycontent .= "<script src='". WP_PLUGIN_URL . "/TweetLocker/js/locker.js" . "'></script>";
     
     $displaycontent .="<div id = 'hiddencontent' style='display: none;'>" . $content;
