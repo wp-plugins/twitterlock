@@ -1,6 +1,6 @@
 <?php 
 /*
-Plugin Name: TweetLocker - Social Lock for your content
+Plugin Name: TwitterLock - Social Lock for your content
 Plugin URI: http://kgfog.com
 Description: TweetLocker enables you to hide a part of your post or page 's content. The part will only be revealed when a person Follows or Tweets.  
 Version: 1.0.0
