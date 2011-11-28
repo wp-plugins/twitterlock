@@ -24,8 +24,8 @@ function locker_install(){
 }
 
 function add_locker_menu(){
-    add_menu_page(__('TweetLocker','TweetLocker'),
-                  __('TweetLocker','TweetLocker'),
+    add_menu_page(__('TwitterLock','TwitterLock'),
+                  __('TwitterLock','TwitterLock'),
                   'administrator',
                   basename(__FILE__),
                   'locker_admin');

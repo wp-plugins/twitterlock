@@ -50,7 +50,7 @@ tinyMCE.init({
     global $wpdb;
     $settings = $wpdb->get_row("select * from locker_settings",ARRAY_A);
 ?>
-<h2><i>Like Locker Settings</i></h2>
+<h2><i>TwitterLock Settings</i></h2>
 <hr/>
 <br/>
 <?php echo $message; ?>
