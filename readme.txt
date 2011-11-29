@@ -2,8 +2,8 @@
 Contributors: Mohit Jawanjal (this should be a list of wordpress.org userid's)
 Donate link: http://kgfog.com/twitterlock
 Tags: twitter, content locker, twitter content locker
-Requires at least: 2.0.2
-Tested up to: 2.1
+Requires at least: 2.8
+Tested up to: 3.2.1
 
 TwitterLock can easily lock up content, which will only be revealed when the user will follow you on twitter or Tweet using twitter
 
